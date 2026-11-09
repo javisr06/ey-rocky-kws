@@ -1,0 +1,111 @@
+{
+  "phrase": "ey rocky",
+  "sample_rate_hz": 16000,
+  "input_shape": [
+    1,
+    16000,
+    1
+  ],
+  "input_type": "float32 PCM in [-1, 1]",
+  "output": "wake probability [0, 1]",
+  "unique_positive_clips": 30,
+  "held_out_positive_clips": 6,
+  "negative_source_seconds": 47.4935,
+  "provisional_threshold_from_small_validation_set": 0.6383810639381409,
+  "threshold_diagnostics": {
+    "0.5": {
+      "held_out_positive_recall": 1.0,
+      "noise_window_false_positive_rate": 1.0
+    },
+    "0.6131396293640137": {
+      "held_out_positive_recall": 1.0,
+      "noise_window_false_positive_rate": 1.0
+    },
+    "0.6157408356666565": {
+      "held_out_positive_recall": 1.0,
+      "noise_window_false_positive_rate": 0.9166666666666666
+    },
+    "0.6187968850135803": {
+      "held_out_positive_recall": 1.0,
+      "noise_window_false_positive_rate": 0.8333333333333334
+    },
+    "0.6220198273658752": {
+      "held_out_positive_recall": 1.0,
+      "noise_window_false_positive_rate": 0.75
+    },
+    "0.6236287355422974": {
+      "held_out_positive_recall": 1.0,
+      "noise_window_false_positive_rate": 0.6666666666666666
+    },
+    "0.6267417669296265": {
+      "held_out_positive_recall": 1.0,
+      "noise_window_false_positive_rate": 0.5833333333333334
+    },
+    "0.6304110288619995": {
+      "held_out_positive_recall": 1.0,
+      "noise_window_false_positive_rate": 0.5
+    },
+    "0.6307233572006226": {
+      "held_out_positive_recall": 1.0,
+      "noise_window_false_positive_rate": 0.4166666666666667
+    },
+    "0.6317073702812195": {
+      "held_out_positive_recall": 1.0,
+      "noise_window_false_positive_rate": 0.3333333333333333
+    },
+    "0.632394552230835": {
+      "held_out_positive_recall": 1.0,
+      "noise_window_false_positive_rate": 0.25
+    },
+    "0.6336511373519897": {
+      "held_out_positive_recall": 1.0,
+      "noise_window_false_positive_rate": 0.16666666666666666
+    },
+    "0.6340739727020264": {
+      "held_out_positive_recall": 1.0,
+      "noise_window_false_positive_rate": 0.08333333333333333
+    },
+    "0.6383810639381409": {
+      "held_out_positive_recall": 1.0,
+      "noise_window_false_positive_rate": 0.0
+    },
+    "0.6387519240379333": {
+      "held_out_positive_recall": 0.8333333333333334,
+      "noise_window_false_positive_rate": 0.0
+    },
+    "0.6392085552215576": {
+      "held_out_positive_recall": 0.6666666666666666,
+      "noise_window_false_positive_rate": 0.0
+    },
+    "0.639573335647583": {
+      "held_out_positive_recall": 0.5,
+      "noise_window_false_positive_rate": 0.0
+    },
+    "0.6396167278289795": {
+      "held_out_positive_recall": 0.3333333333333333,
+      "noise_window_false_positive_rate": 0.0
+    },
+    "0.6401983499526978": {
+      "held_out_positive_recall": 0.16666666666666666,
+      "noise_window_false_positive_rate": 0.0
+    },
+    "0.7": {
+      "held_out_positive_recall": 0.0,
+      "noise_window_false_positive_rate": 0.0
+    },
+    "0.85": {
+      "held_out_positive_recall": 0.0,
+      "noise_window_false_positive_rate": 0.0
+    },
+    "0.95": {
+      "held_out_positive_recall": 0.0,
+      "noise_window_false_positive_rate": 0.0
+    }
+  },
+  "limitations": [
+    "prototype only",
+    "threshold is tuned on only six held-out positive clips",
+    "negative data contains noise only, not ordinary speech",
+    "small single-session positive set"
+  ]
+}
